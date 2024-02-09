@@ -1,0 +1,32 @@
+.projects {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem;
+    padding: 2rem;
+}
+
+.projectCard {
+    background: #333;
+    /* Card background */
+    border-radius: 8px;
+    padding: 1rem;
+    color: #ddd;
+    /* Text color for cards */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.projectCard:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.projectTitle {
+    font-size: 1.5rem;
+    color: #76b900;
+    /* Accent color for project titles */
+}
+
+.projectDescription {
+    margin-top: 0.5rem;
+    font-size: 1rem;
+}

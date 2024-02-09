@@ -1,0 +1,28 @@
+.about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    gap: 1rem;
+}
+.aboutContainer {
+    background: #1f1f1f; /* Dark background for the about page */
+    color: #fff; /* Light text color for contrast */
+    min-height: 100vh; /* Full viewport height */
+    /* Additional styling */
+  }
+  
+
+.bio {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: #cccccc;
+    /* Consistent with description style */
+}
+
+.portrait {
+    max-width: 200px;
+    border-radius: 50%;
+    border: 3px solid #76b900;
+    /* Accent color for portrait border */
+}

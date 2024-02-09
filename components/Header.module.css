@@ -1,0 +1,30 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background: #333;
+  color: #fff;
+}
+
+.socialMedia {
+  display: flex;
+  gap: 1rem;
+}
+
+.navigation {
+  display: flex;
+  gap: 1rem;
+}
+
+.link {
+  color: #fff;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  transition: color 0.3s ease;
+
+  
+}
+.link:hover {
+  color: #04c;
+}

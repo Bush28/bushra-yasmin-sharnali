@@ -1,0 +1,98 @@
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+.sidebar {
+    /* Sidebar styles */
+    width: 250px;
+    background: #333;
+    /* Dark sidebar background */
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.mainContent {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #1a1a1a;
+    /* Dark main background */
+    color: white;
+    padding: 50px;
+    text-align: center;
+}
+
+.profileImage {
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.typewriter {
+    font-size: 2em;
+    white-space: nowrap;
+    overflow: hidden;
+    display: inline-block;
+    animation: typing 3s steps(40, end), blink-caret 0.75s step-end infinite;
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 100%;
+    }
+}
+
+@keyframes blink-caret {
+
+    from,
+    to {
+        border-color: transparent;
+    }
+
+    50% {
+        border-color: white;
+    }
+}
+
+.skills {
+    margin-top: 20px;
+}
+
+.skill {
+    margin-bottom: 10px;
+}
+
+.skillName {
+    display: block;
+}
+
+.skillBar {
+    background: grey;
+    height: 20px;
+    position: relative;
+}
+
+.skillLevel {
+    background: #4caf50;
+    height: 100%;
+}
+
+.projects {
+    margin-top: 20px;
+}
+
+.project {
+    display: block;
+    margin-bottom: 10px;
+}
+
+/* Add additional styles as needed for the sidebar and other elements */

@@ -1,0 +1,36 @@
+.sidebar {
+    width: 250px;
+    /* Adjust width as needed */
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    background-color: #333;
+    /* Your desired background color */
+    color: #fff;
+    /* Your desired text color */
+    padding: 1em;
+}
+
+.navMenu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navList {
+    padding: 0;
+}
+
+.navItem {
+    margin-bottom: 1em;
+    /* Adjust spacing as needed */
+}
+
+.navItem a {
+    color: #fff;
+    /* Your desired link color */
+    text-decoration: none;
+}
+
+/* Add more styles for hover effect , active link, etc. */
