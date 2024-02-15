@@ -2,8 +2,10 @@
 import { useEffect } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css'; // Bootstrap CSS
 import Header from '../components/Header';
+import Sidebar from '../components/Sidebar';
 import Footer from '../components/Footer';
-import '../styles/globals.css';
+import '../src/app/global.css'
+
 
 function MyApp({ Component, pageProps }) {
     useEffect(() => {
@@ -18,6 +20,7 @@ function MyApp({ Component, pageProps }) {
         <>
             <Header />
             <main>
+            <Sidebar />
             <Component {...pageProps} />
             </main>
             <Footer />

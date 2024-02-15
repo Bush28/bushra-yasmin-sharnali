@@ -1,36 +1,33 @@
 .sidebar {
     width: 250px;
-    /* Adjust width as needed */
-    position: fixed;
-    left: 0;
-    top: 0;
+    display: flex ;
+    position: fixed; /* or position: relative; depending on your layout */
+    left: 5px;
+    top: 0px; 
     bottom: 0;
     background-color: #333;
-    /* Your desired background color */
     color: #fff;
-    /* Your desired text color */
-    padding: 1em;
+    padding: 2em;
 }
 
 .navMenu {
     list-style: none;
-    padding: 0;
+    padding: 50;
     margin: 0;
 }
 
 .navList {
-    padding: 0;
+    padding:2;
 }
 
 .navItem {
     margin-bottom: 1em;
-    /* Adjust spacing as needed */
 }
 
 .navItem a {
     color: #fff;
-    /* Your desired link color */
     text-decoration: none;
 }
-
-/* Add more styles for hover effect , active link, etc. */
+.navItem a:hover {
+    color: rgb(14, 204, 0);
+  }

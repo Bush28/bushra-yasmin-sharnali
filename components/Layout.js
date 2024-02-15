@@ -7,10 +7,12 @@ const Layout = ({ children }) => {
     return (
         <div className={styles.layout}>
             <Header />
-            <Sidebar />
-            <main className={styles.main}>
-                {children}
-            </main>
+            <div className={styles.content}>
+                <Sidebar />
+                <main className={styles.main}>
+                    {children}
+                </main>
+            </div>
             <Footer />
         </div>
     );
