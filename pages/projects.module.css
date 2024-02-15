@@ -1,32 +1,29 @@
-.projects {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    gap: 1.5rem;
-    padding: 2rem;
+.projectContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
 }
 
-.projectCard {
-    background: #333;
-    /* Card background */
+.project {
+    width: 30%;
+    margin: 20px;
+    padding: 20px;
+    background-color: #160606;
     border-radius: 8px;
-    padding: 1rem;
-    color: #ddd;
-    /* Text color for cards */
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.projectCard:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-}
-
-.projectTitle {
+.projectName {
     font-size: 1.5rem;
-    color: #76b900;
-    /* Accent color for project titles */
+    margin-bottom: 10px;
 }
 
 .projectDescription {
-    margin-top: 0.5rem;
-    font-size: 1rem;
+    margin-bottom: 15px;
+}
+
+.projectLink {
+    display: block;
+    color: #0070f3;
+    text-decoration: none;
 }

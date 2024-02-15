@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import styles from './Sidebar.module.css'; // Make sure to create this CSS module file
+import styles from './Sidebar.module.css';
 
 const Sidebar = () => {
     return (

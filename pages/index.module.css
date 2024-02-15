@@ -2,17 +2,14 @@
     display: flex;
     height: 100vh;
     background: #1a1a1a;
-    /* Dark main background */
 }
 
 .mainContent {
     display: flex;
     justify-content: space-between;
-    /* Adjust content spacing */
     align-items: center;
     padding: 0 500px;
     flex-direction: row-reverse;
-    /* Adjust based on sidebar and desired spacing */
 }
 .descriptionTextBox {
     background-color: #333;
@@ -29,23 +26,17 @@
     display: flex;
     justify-content: space-between;
     width: 100%;
-    /* Ensure it fills the main content area */
 }
 
 .details {
     flex: 1;
-    /* Allows it to grow and fill the space next to the profile picture */
     padding-right: 20px;
-    /* Adds some spacing between the details and the profile picture */
 }
 
 .profilePicContainer {
     flex-basis: 310px;
-    /* Adjust based on the width of your profile picture */
     height: 700px;
-    /* Adjust based on the height of your profile picture */
     position: relative;
-    /* For Image component from Next.js */
 }
 
 
@@ -83,21 +74,13 @@
 
 .textbox {
     background-color: #333;
-    /* Darker background for the textbox */
     border: 1px solid #444;
-    /* Slight border for depth */
     padding: 20px;
-    /* Padding inside the textbox */
     margin-top: 20px;
-    /* Space above the textbox */
     border-radius: 8px;
-    /* Rounded corners for a modern look */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    /* Soft shadow for depth */
     color: #fff;
-    /* Text color */
     text-align: left;
-    /* Align text to the left */
 }
 
 .skills,
@@ -114,21 +97,16 @@
     background: grey;
     height: 20px;
     width: 100%;
-    /* Full width to maintain layout */
     position: relative;
     overflow: hidden;
-    /* Ensure the inner bar doesn't overflow */
 }
 
 .skillLevel {
     background: #4caf50;
-    /* Color for the filled part */
     width: 0%;
-    /* Start with no fill */
     height: 100%;
     position: absolute;
     top: 0;
     left: 0;
     transition: width 2s ease-out;
-    /* Animate the fill */
 }

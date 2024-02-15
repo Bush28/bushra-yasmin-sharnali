@@ -1,7 +1,7 @@
 .sidebar {
     width: 250px;
     display: flex ;
-    position: fixed; /* or position: relative; depending on your layout */
+    position: fixed; 
     left: 5px;
     top: 0px; 
     bottom: 0;

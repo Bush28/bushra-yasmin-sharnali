@@ -68,8 +68,8 @@ export default function Home() {
                                         <div className={styles.skillBar}>
                                             <div
                                                 className={styles.skillLevel}
-                                                data-skill={skill.name} // Match this in useEffect
-                                                style={{ width: '0%' }} // Start width at 0%
+                                                data-skill={skill.name} //useffect
+                                                style={{ width: '0%' }} 
                                             ></div>
                                         </div>
                                     </div>
@@ -88,10 +88,10 @@ export default function Home() {
                         <Image
                             src="/assets/images/profile.jpg"
                             alt="Bushra Yasmin"
-                            width={310} // Adjust based on your preference
-                            height={700} // Adjust based on your preference
+                            width={310} 
+                            height={600} 
                             className={styles.profileImage}
-                            priority // Addressing the LCP warning
+                            priority 
                         />
                     </div>
                     
