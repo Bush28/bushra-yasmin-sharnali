@@ -75,13 +75,13 @@ export default function Home() {
                                     </div>
                                 ))}
                             </div>
-                            <div className={styles.projects}>
+                            {/* <div className={styles.projects}>
                                 {projects.map((project, index) => (
                                     <a key={index} href={project.link} className={styles.project}>
                                         {project.name}
                                     </a>
                                 ))}
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                     <div className={styles.profilePicContainer}>
@@ -89,7 +89,7 @@ export default function Home() {
                             src="/assets/images/profile.jpg"
                             alt="Bushra Yasmin"
                             width={310} 
-                            height={600} 
+                            height={670} 
                             className={styles.profileImage}
                             priority 
                         />
