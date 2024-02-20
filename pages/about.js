@@ -19,6 +19,15 @@ const About = () => {
             </div>
 
             <h2 className={styles.sectionTitle}>Experience</h2>
+            <p>Panorama Washing Co. Ltd. , Gazipur City, Bangladesh</p>
+            <p>Software Developer(Database Management System), April 2021 - Sept 2022</p>
+            <ul>
+                <li>Developed a tailored database management system utilizing MySQL for database management, Python and Flask for backend development and JavaScript for frontend interactions, optimizing internal operations.</li>
+                <li>Engineered key functionalities including order tracking, customer database management, inventory monitoring, and employee scheduling, enhancing operational efficiency by 30%.</li>
+                <li>Led the project from inception to completion, overseeing requirements gathering, system design, implementation and ongoing maintenance using tools such as Git for version control.</li>
+                <li>Achieved substantial improvements in business processes, increased productivity by 25%, reduced errors by 20%, and improved customer service by 35%.</li>
+            </ul>
+
             <p>NSU ACM Student Chapter, Dhaka, Bangladesh</p>
             <p>Sub-executive, Jan 2018 - Dec 2019</p>
             <ul>
